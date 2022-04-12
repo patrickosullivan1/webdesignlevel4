@@ -9,41 +9,126 @@
 <meta http-equiv="refresh" content="30">
 
     <style>
-ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
+ul 				{
+				list-style-type: square;
+				margin: 20px;
+				padding: 20px;
 				overflow: hidden;
 				background-color: green;
+				text-align: right;
+				list-style-type:none;
 				}
 ul img {
 		width: 100px;
 		height:100px;
+		float: left;
+		  text-decoration: none;
 		}
+li a:hover {
+		  background-color:white;
+		  }
+		
 	
-body                     {
+body                     	{
                                 background-color:#b3e5fc;
                                 font-family: arial;
+								text-align: center;
                               }
 h1							{
 								color:#191970;
+								text-align:center;
+								font-family:slugger;
+								text-transform: uppercase;
 								}
-								
-li 		{
-		  float: right;
-		  font-size: 20px;
-		}
+h2							{
+							color:black;
+							text-align:center;
+	                             }
+h3							{
+							text-align:center;
+							color: #fc9200;
+							}
+span                 {
+                              color: #6d9815;
+                              text-shadow: 0.5px 0.5px #ffffff;
+                             }
+.container      {
+                              background-color: #6d9815;
+                              width: 80em;
+                              border-radius: 100px;
+                              margin: auto;            
+                              padding: 4px;
+							  border: 2px;
 
-li a {
-		  display: block;
-		  color: orange;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		}
-		li a:hover {
-		  background-color: #111;
-		}
+                              }
+.card            {
+                          background-color: #fff;
+                          border-radius: 15px;						  
+						
+                        }
+.card            {
+                          background-color: #fff;
+                          border-radius: 15px;
+                          width: 250px;
+                          margin-left: 60px;
+                          margin-bottom: 60px;
+                          padding: 15px;
+                          color: #6d9815;
+                          display: inline-block;
+                        }
+img         		{
+                    border-radius: 5px;
+                    }
+h3            	{
+                   color: #fc9200;
+                   text-shadow: 0.5px 0.5px #6d9815;
+					}
+                   }
+a              {
+                   text-decoration: none;
+                   color: #fff;
+                 }					
+				 
+table		{
+			margin: auto;
+			
+			}
+caption		{
+			font-family: Verdana;
+			font-weght: bold;
+			font-size: 25px;
+			font-style: italic;
+			}
+				 
+table, th, td{
+			border: 1px solid black;
+			width: 1000px;
+			text-align: center;
+						}
+span		{
+			color: blue;
+			align: center;
+			font-size: 25px;
+			font-weight: bold;
+			}
+			
+th,td {
+			padding: 15px;
+			}
+			
+blockquote
+			{
+			font-style: italic;
+			align: left;
+			font-family: Georgia, "Times New Roman", serif;
+			}
+ol 			{
+			list-style-type:none;
+			}
+
+
+
+		
    </style>
 </head>
 
@@ -51,27 +136,144 @@ li a {
 <ul>
 	<a href="index.html">
 		<img src="images/logo2.png"</a>
+<br>
 		<li><a href="index.html">Home</a></li>
-		<li><a href="contact.html">Contact us</a></li>
+<br>
+		<li><a href="contact.html" target="_blank">Contact us</a></li>
 </ul>
 		
-<h1> Unwritten rules of baseball</h1>
-<h2> The 3 most broken rules and how breaches are punished</h2>
+<h1> Unwritten Rules of Baseball</h1>
+<h2> The <mark>3 most broken rules</mark> and <mark>how breaches are punished</mark></h2>
 
+<div class="container">
 
-<p> xxxxxxxx</p>
-<p>
-<a href= "https://www.screwballtimes.com/articles/baseball-unwritten-rules/">Screwball Times</a>
-</p>
-<p>
-<a href= "https://en.wikipedia.org/wiki/Unwritten_rules_of_baseball">Wikipedia</a>
-</p>
-<p>
-<a href= "https://www.hustletraining.com/blog/unwritten-rules-of-baseball">Guide for youth baseball</a>
-</p>
+           
+	<div class="row">           
+         
+        <div class="card">
+		 
+			 <a href="images/baseballswing.jpg" target="_blank">
+               <img src="images/smbaseballswing.jpg" height="160" width="250" alt="swing">
+				              </a>
+				<h3>Do not swing</h3>
+				<p>The batter should does swing on a 3-0 count.</p>
+				
+		</div>
+		<div class="card">
+                   <a href="images/baseballnohitter.jpg" target="_blank">
+                     <img src="images/smbaseballnohitter.jpg" height="160" width="250" alt="no hitter" target=_blank>
+                     </a>
+                   <h3>Breaking up a no hitter</h3>
+                   <p>A batter does not bunt to break up a no hitter</p>
+                  
+        </div>
+				<div class="card">
+                   <a href="images/baseballsteal.jpg" target="_blank">
+                     <img src="images/smbaseballsteal.jpg" height="160" width="250" alt="Steal a base">
+                     </a>
+                   <h3>Stealing a base</h3>
+                   <p>A runner does not steal a base when the team is either behind or ahead by a large margin</p>
 
-<a href="mailto: 21.patrick.osullivan@learner.lcetb.ie">Email Patrick O'Sullivan</a>
-   
+         </div>
+			   
+<h2> The Punishment for breaches of these rules</h2>
+
+		</div>
+	<div class="row">           
+         
+        <div class="card">
+		 
+			 <a href="images/baseballhitbypitch.jpg" target="_blank">
+               <img src="images/smbaseballhitbypitch.jpg" height="160" width="250" alt="Hit by pitch">
+				              </a>
+				<h3>Grab the icepack</h3>
+				<p>Generally the pitcher will throw the next pitch at the batter </p>
+				                         
+		</div>
+		<div class="card">
+                   <a href="images/baseballbrawl.jpg" target="_blank">
+                     <img src="images/smbaseballbrawl.jpg" height="160" width="250" alt="Brawl">
+                     </a>
+                   <h3>A brawl breaks out</h3>
+                   <p>This is a serious breach which will result in a bench clearing brawl</p>
+		</div>
+                   
+				<div class="card">
+                   <a href="images/baseballpitch.jpg" target="_blank">
+                     <img src="images/smbaseballpitch.jpg" height="160" width="250" alt="Next batter pays">
+                     </a>
+                   <h3>Next batter pays the price</h3>
+                   <p>Generally the next batter will pay the price with a pitch thrown at him</p>
+                   
+               </div>
+		</div>
+	
+		</div>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		
+<table>
+	<caption>Stastics</caption>
+	<tr>
+		<th>Most Breaches</th>
+	</tr>
+	<tr>
+		<td><span>Most ejections for fighting</span></td>
+		<td><span>Most hit by pitches</span></td>
+	</tr>
+	<tr>
+		<td>Bryce Harper</td>
+		<td>Hughie Jennings</td>
+	</tr>
+	<tr>
+		<td>Ejected once every 84 games</td>
+		<td>HBP 287 times</td>
+	</tr>
+</table>
+		<br>
+		<hr>
+		<br>
+		<p><blockquote> "I am completely innocent"</blockquote>Bryce Harper</p>
+		<br>
+		
+<h3>Average cost of breaching the rules &euro;1000</h3>
+		<br>
+		<hr>
+		
+
+<h3>For Additional Information</h3>
+
+<a href= "https://www.screwballtimes.com/articles/baseball-unwritten-rules/" target="_blank">Screwball Times</a>
+<br>
+<br>
+<a href= "https://en.wikipedia.org/wiki/Unwritten_rules_of_baseball" target="_blank">Wikipedia</a>
+<br>
+<br>
+<a href= "https://www.hustletraining.com/blog/unwritten-rules-of-baseball" target="_blank">Guide for youth baseball</a>
+<br>
+<br>
+<a href= "https://www.mlb.com/" target="_blank">
+		<img alt="mlb official site" src="images/mlbtheshow.png" width="150" height="30">
+		</a>
+		<br>
+		<hr>
+<h2><mark>To Avoid Having Problems on the Field<mark></h2>
+<ol>
+		<li>Have respect for yourself</li>
+		<li>Have respect for the officials</li>
+		<li>Have respect for your opponents</li>
+		<li>Have respect for the game and written/unwritten rules</li>
+</ol>
+<ul>
+	<li><center><a href="mailto: 21.patrick.osullivan@learner.lcetb.ie">Email Patrick O'Sullivan<center></a></li>
+<br>
+<br>		
+		<li><center>&#169; Patrick O'Sullivan<center></li>
+</ul>
+
 
 </body>
 </html>
